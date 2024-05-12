@@ -16,6 +16,7 @@ export default defineConfig(async (merge, { command, mode }) => {
       375: 2,
       828: 1.81 / 2,
     },
+
     sourceRoot: "src",
     outputRoot: "dist",
     plugins: [],
@@ -68,6 +69,7 @@ export default defineConfig(async (merge, { command, mode }) => {
     h5: {
       publicPath: "/",
       staticDirectory: "static",
+      // esnextModules: ["taro-ui"],
       output: {
         filename: "js/[name].[hash:8].js",
         chunkFilename: "js/[name].[chunkhash:8].js",

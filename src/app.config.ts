@@ -6,6 +6,11 @@ export default defineAppConfig({
     "pages/Homepage/index",
   ],
   tabBar: {
+    // custom: true,
+    color: "#000",
+    selectedColor: "#56abe4",
+    backgroundColor: "#fff",
+    borderStyle: "white",
     list: [
       {
         // iconPath: "resource/latest.png",
@@ -32,11 +37,9 @@ export default defineAppConfig({
         text: "个人主页",
       },
     ],
-    color: "#000",
-    selectedColor: "#56abe4",
-    backgroundColor: "#fff",
-    borderStyle: "white",
   },
+  usingComponents: {},
+
   window: {
     backgroundTextStyle: "light",
     navigationBarBackgroundColor: "#fff",
